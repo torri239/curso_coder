@@ -1,0 +1,44 @@
+*   {margin: 0;
+    padding: 0;
+}
+.ofertas{display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 100px;}
+
+nav{display: flex;
+        align-items: center;
+        justify-content: space-around;}   
+.aperitivos {
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid-gap: 100px;}
+    
+.artcontainer {background-color: darkred;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;}
+    
+.producto {width: 200px;
+    height: 300px;}
+    
+.final {background-color: darkred; 
+        margin-top: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;}
+        
+.imgFinal {width: 90px; height: 60px;}
+ul  {display: flex;
+            align-items: center;}
+li  {list-style: none;
+                margin-left: 20px;  }
+                
+a   {color: black;
+                height: 80px;}
+
+
+                  
