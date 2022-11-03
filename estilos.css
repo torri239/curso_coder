@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
 *   {margin: 0;
     padding: 0;
 }
+.contenido  {font-family: 'Righteous', cursive;}
+
 .ofertas{display: grid;
 
     grid-template-columns: 1fr 1fr 1fr;
@@ -24,7 +28,7 @@ nav{display: flex;
     
 .producto {width: 200px;
     height: 300px;}
-    
+
 .final {background-color: darkred; 
         margin-top: 30px;
         height: 30px;
