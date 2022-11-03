@@ -5,7 +5,7 @@
 
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-gap: 100px;}
+    grid-gap: 150px;}
 
 nav{display: flex;
         align-items: center;
@@ -14,8 +14,9 @@ nav{display: flex;
      display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr ;
-    grid-gap: 100px;}
+    grid-gap: 150px;}
     
+
 .artcontainer {background-color: darkred;
     width: 200px;
     height: 300px;
@@ -40,5 +41,53 @@ li  {list-style: none;
 a   {color: black;
                 height: 80px;}
 
+/* MOBILE FIRST */
+header{
+    display: grid;
+    grid-template-columns: auto;
+    /*grid-template-rows: auto auto auto auto auto;*/
+
+}
+
+nav{
+    display: grid;
+    grid-template-columns: auto ;
+    /*grid-template-rows: auto auto auto auto auto;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-principal{
+    justify-self: center;
+}
+
+.grid-header{
+    justify-self: center;
+}
+
+footer{display: grid;
+    grid-template-columns: auto; }
+
+.producto {display: grid;
+    grid-template-columns: auto;
+justify-self: center;}
+
+@media (min-width: 768px){
+    .nav{
+        grid-template-columns: auto auto auto;
+        justify-content: space-around;
+    }
+    ul{
+        display: flex;
+        justify-content: space-around;
+    }
+footer{display: grid;
+        grid-template-columns: auto auto auto; }
+
+.producto {display: grid;
+            grid-template-columns: auto;
+        justify-self: center;}
+    
+}    
 
                   

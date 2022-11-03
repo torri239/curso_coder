@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lunin</title>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./estilos.css">
 </head>
 <body class="fondo">
     <header>
         <nav>
-            <img clas="logo-principal" src="./imagenes/LOGOPEQUEÑO-removebg-preview.png" alt="logo">
+            <img class="logo-principal" src="./imagenes/LOGOPEQUEÑO-removebg-preview.png" alt="logo">
              <ul class="Listas">
                 <li><a href="./Inicio/combos.html">Combos</a></li>
                 <li><a href="./Inicio/cervezas.html">Cervezas</a></li>
@@ -23,11 +27,11 @@
     </header>
         <p>Somos el delivery que vino a empoderarte, sorprenderte y a simplificar la compra de bebidas. Ahora vos creás la magia junto a Lunin para mantener vivos los momentos de disfrute sin interrupciones. Como por arte de magia y con un par de clicks aparecen bebidas frías, rápidas y a buen precio a la puerta de tu casa.</p>
 <br>
- <main>
+ <main class="container-fluid">
     <H2>Ofertas Por Mayor</H2>
-        <section class="ofertas">
-            <article class="artcontainer">
-            <p>APERTIVOS</p>
+    <br>
+        <section class="ofertas" class="row">
+            <article class="artcontainer" class="col-sm-12 col-md-6 col-lg-4">
             <img class="producto" src="./imagenes/aperitivo1-removebg-preview.png" alt="fernet" data-aos="flip-left">
             <p>Fernet</p>
             <p>cantidades Permitidas</p>
@@ -37,7 +41,7 @@
                     <option value="3">10 unidades = $4.000</option>          
                 </select>
         </article>
-        <article class="artcontainer">
+        <article class="artcontainer" class="col-sm-12 col-md-6 col-lg-4"> 
             <img class="producto" src="./imagenes/aperitivo2-removebg-preview.png" alt="aperol" data-aos="flip-left">
                 <p>Aperol</p>
                 <p>cantidades Permitidas</p>
@@ -47,7 +51,7 @@
                 <option value="3">10 unidades = $4.000</option>          
             </select>
         </article>
-         <article class="artcontainer">
+         <article class="artcontainer" class="col-sm-12 col-md-6 col-lg-4">
             <img class="producto" src="./imagenes/aperitivo3-removebg-preview.png" alt="gancia" data-aos="flip-left">
             <p>Gancia</p>
             <p>cantidades Permitidas</p>
@@ -57,8 +61,7 @@
                 <option value="3">10 unidades = $4.000</option>          
             </select>
         </article>
-        <article class="artcontainer">
-            <h3>CERVEZA</h3>
+        <article class="artcontainer" class="col-sm-12 col-md-6 col-lg-4">
             <img class="producto" src="./imagenes/cerveza1-removebg-preview.png" alt="patagonia-bohemian" data-aos="flip-left">
             <p>Patagonia Bohemian</p>
             <p>cantidades Permitidas</p>
@@ -68,7 +71,7 @@
                 <option value="3">10 unidades = $4.000</option>          
             </select>
         </article>
-        <article class="artcontainer">
+        <article class="artcontainer" class="col-sm-12 col-md-6 col-lg-4">
             <img class="producto" src="./imagenes/cerveza2-removebg-preview.png" alt="andes-ipa" data-aos="flip-left">
             <p>ANDES IPA</p>
             <p>cantidades Permitidas</p>
@@ -78,7 +81,7 @@
                 <option value="3">10 unidades = $4.000</option>          
             </select>
         </article>
-        <article class="artcontainer">
+        <article class="artcontainer" class="col-sm-12 col-md-6 col-lg-4">
             <img class="producto" src="./imagenes/cerveza3-removebg-preview.png" alt="brahma" data-aos="flip-left">
             <p>brahma</p>
             <p>cantidades Permitidas</p>
@@ -88,8 +91,7 @@
                 <option value="3">10 unidades = $4.000</option>          
             </select>
         </article>
-        <article class="artcontainer">
-            <P>LICORES</P>
+        <article class="artcontainer" class="col-sm-12 col-md-6 col-lg-4">
             <img class="producto" src="./imagenes/licor1-removebg-preview.png" alt="baileys" data-aos="flip-left">
             <p>Baileys</p>
             <p>cantidades Permitidas</p>
@@ -99,7 +101,7 @@
                 <option value="3">10 unidades = $4.000</option>          
             </select>
         </article>
-        <article class="artcontainer">
+        <article class="artcontainer" class="col-sm-12 col-md-6 col-lg-4">
             <img class="producto" src="./imagenes/licor2-removebg-preview.png" alt="sheridans" data-aos="flip-left">
             <p>Sheridans</p>
             <p>cantidades Permitidas</p>
@@ -109,7 +111,7 @@
                 <option value="3">10 unidades = $4.000</option>          
             </select>
         </article>
-        <article class="artcontainer">
+        <article class="artcontainer" class="col-sm-12 col-md-6 col-lg-4">
             <img class="producto" src="./imagenes/licor3-removebg-preview.png" alt="jagermeister" data-aos="flip-left">
             <p>jagermeister</p>
             <p>cantidades Permitidas</p>
@@ -119,8 +121,7 @@
                 <option value="3">10 unidades = $4.000</option>          
             </select>
         </article>
-        <article class="artcontainer">
-            <p>WHISKIES</p>
+        <article class="artcontainer" class="col-sm-12 col-md-6 col-lg-4">
             <img class="producto" src="./imagenes/wis1-removebg-preview.png" alt="blue-label" data-aos="flip-left">
             <p>Blue Label</p>
             <p>cantidades Permitidas</p>
@@ -130,7 +131,7 @@
                 <option value="3">10 unidades = $4.000</option>          
             </select>
         </article>
-        <article class="artcontainer">
+        <article class="artcontainer" class="col-sm-12 col-md-6 col-lg-4">
             <img class="producto" src="./imagenes/wis2-removebg-preview.png" alt="chivas" data-aos="flip-left">
             <p>Chivas</p>
             <p>cantidades Permitidas</p>
@@ -140,7 +141,7 @@
                 <option value="3">10 unidades = $4.000</option>          
             </select>
         </article>
-        <article class="artcontainer">
+        <article class="artcontainer" class="col-sm-12 col-md-6 col-lg-4">
             <img class="producto" src="./imagenes/wis3-removebg-preview.png" alt="red-label" data-aos="flip-left">
             <p>Red Label</p>
             <p>cantidades Permitidas</p>
@@ -152,9 +153,11 @@
         </article>
     </section> 
     </main>  
-<br>
-<br>
-<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 <footer class="final">
     <ul>
         <li><a href="./FinalDePagina/Preguntas.html">Preguntas Frecuentes</a></li>
