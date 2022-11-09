@@ -5,29 +5,30 @@
 }
 .contenido  {font-family: 'Righteous', cursive;}
 
-.ofertas{display: grid;
-
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-gap: 150px;}
+.ptitulo{font-family: 'Righteous', cursive;
+font-size: 35px;}
 
 nav{display: flex;
         align-items: center;
         justify-content: space-around;}   
-.aperitivos {
-     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr ;
-    grid-gap: 150px;}
     
+#artcontainer {background-color: darkred;
+    border-radius: auto;
+grid-gap: 150px;}
 
-.artcontainer {background-color: darkred;
-    width: 200px;
-    height: 300px;
-    border-radius: 20px;}
+.logo-principal{align-items: center; align-items: center; justify-self: center;}
     
-.producto {width: 200px;
-    height: 300px;}
+.producto {width: 150px;
+    height: 200px;
+align-items: center;
+align-content: center;
+justify-content: center;}
+
+.producto1 {width: 100px;
+    height: 150px;
+align-items: center;
+align-content: center;
+justify-content: center;}
 
 .final {background-color: darkred; 
         margin-top: 30px;
@@ -36,7 +37,6 @@ nav{display: flex;
         align-items: center;
         justify-content: space-around;}
         
-.imgFinal {width: 90px; height: 60px;}
 ul  {display: flex;
             align-items: center;}
 li  {list-style: none;
@@ -61,20 +61,12 @@ nav{
     align-items: center;
 }
 
-.logo-principal{
-    justify-self: center;
-}
-
 .grid-header{
     justify-self: center;
 }
 
 footer{display: grid;
     grid-template-columns: auto; }
-
-.producto {display: grid;
-    grid-template-columns: auto;
-justify-self: center;}
 
 @media (min-width: 768px){
     .nav{
@@ -86,12 +78,15 @@ justify-self: center;}
         justify-content: space-around;
     }
 footer{display: grid;
-        grid-template-columns: auto auto auto; }
+        grid-template-columns: auto auto auto;
+     }
 
 .producto {display: grid;
             grid-template-columns: auto;
         justify-self: center;}
-    
+.mapa   {height: 500px; width: 500px; justify-content: center;
+align-items: center;}
+  
 }    
 
                   

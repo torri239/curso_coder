@@ -5,109 +5,125 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <p><a href="../index.html">Inicio</a></p>
+     <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+     <!-- JavaScript Bundle with Popper -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../estilos.css">
 </head>
 <body>
     <header>
-        <nav>
-            <img clas="logo" src="../imagenes/LOGOPEQUEÑO-removebg-preview.png" alt="logo">
-            <ul class="Listas">
-                <li><a href="../Inicio/combos.html">Combos</a></li>
-                <li><a href="../Inicio/cervezas.html">Cervezas</a></li>
-                <li><a href="../Inicio/aperitivos.html">Aperitivos</a></li>
-                <li><a href="../Inicio/whiskies.html">Whiskies</a></li>
-                <li><a href="../Inicio/licores.html">Licores</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="../imagenes/LOGOPEQUEÑO-removebg-preview.png" width="100%" height="100%" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../Inicio/combos.html">Combos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../Inicio/cervezas.html">Cerveza</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../Inicio/aperitivos.html">Aperitivos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../Inicio/whiskies.html">Whiskies</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../Inicio/licores.html">Licores</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
-<main>
-    <H2>CERVEZAS</H2>
-        <section class="aperitivos">
-            <article class="artcontainer">
-                <img class="producto" src="../imagenes/cerveza1-removebg-preview.png" alt="patagonia-bohemian">
+    <main>
+      <p class="ptitulo"> Cervezas Clasicas</p>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4" id="artcontainer">
+            <img class="producto" src="../imagenes/cerveza1-removebg-preview.png" alt="aperol" data-aos="flip-left">
                 <p>Patagonia Bohemian</p>
                 <p>cantidades Permitidas</p>
-                    <select name="unidades" id="unidades">
-                        <option value="1">4 unidades = $1.500</option>
-                        <option value="2">8 unidades = $2.800</option>
-                        <option value="3">10 unidades = $4.000</option>          
-                    </select>
-            </article>
-            <article class="artcontainer">
-                <img class="producto" src="../imagenes/cerveza2-removebg-preview.png" alt="andes-ipa">
-                <p>Andes IPA</p>
+            <select name="unidades" id="unidades">
+                <option value="1">4 unidades = $1.500</option>
+                <option value="2">8 unidades = $2.800</option>
+                <option value="3">10 unidades = $4.000</option>          
+            </select>
+          </div>
+          <div class="col" id="artcontainer">
+            <img class="producto" src="../imagenes/cerveza2-removebg-preview.png" alt="aperol" data-aos="flip-left">
+                <p>Andes Ipa</p>
                 <p>cantidades Permitidas</p>
-                    <select name="unidades" id="unidades">
-                        <option value="1">4 unidades = $1.500</option>
-                        <option value="2">8 unidades = $2.800</option>
-                        <option value="3">10 unidades = $4.000</option>          
-                    </select>
-            </article>
-            <article class="artcontainer">
-                <img class="producto" src="../imagenes/cerveza3-removebg-preview.png" alt="brahma">
+            <select name="unidades" id="unidades">
+                <option value="1">4 unidades = $1.500</option>
+                <option value="2">8 unidades = $2.800</option>
+                <option value="3">10 unidades = $4.000</option>          
+            </select>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4" id="artcontainer">
+            <img class="producto" src="../imagenes/cerveza3-removebg-preview.png" alt="aperol" data-aos="flip-left">
                 <p>Brahma</p>
                 <p>cantidades Permitidas</p>
-                    <select name="unidades" id="unidades">
-                        <option value="1">4 unidades = $1.500</option>
-                        <option value="2">8 unidades = $2.800</option>
-                        <option value="3">10 unidades = $4.000</option>          
-                    </select>
-            </article>
-            <article class="artcontainer">
-                <img class="producto" src="../imagenes/cerveza4-removebg-preview.png" alt="stella">
-                <p>Stella</p>
+            <select name="unidades" id="unidades">
+                <option value="1">4 unidades = $1.500</option>
+                <option value="2">8 unidades = $2.800</option>
+                <option value="3">10 unidades = $4.000</option>          
+            </select>
+          </div>
+        </div>
+      </div>
+      <p class="ptitulo">Cervezas En Oferta</p>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4" id="artcontainer">
+            <img class="producto" src="../imagenes/cerveza4-removebg-preview.png" alt="aperol" data-aos="flip-left">
+                <p>Stella Artois</p>
                 <p>cantidades Permitidas</p>
-                    <select name="unidades" id="unidades">
-                         <option value="1">4 unidades = $1.500</option>
-                         <option value="2">8 unidades = $2.800</option>
-                         <option value="3">10 unidades = $4.000</option>          
-                     </select>
-            </article>
-            <article class="artcontainer">
-                <img class="producto" src="../imagenes/cerveza5-removebg-preview.png" alt="andes-rubia">
+            <select name="unidades" id="unidades">
+                <option value="1">4 unidades = $1.500</option>
+                <option value="2">8 unidades = $2.800</option>
+                <option value="3">10 unidades = $4.000</option>          
+            </select>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4" id="artcontainer">
+            <img class="producto" src="../imagenes/cerveza5-removebg-preview.png" alt="aperol" data-aos="flip-left">
                 <p>Andes Rubia</p>
                 <p>cantidades Permitidas</p>
-                    <select name="unidades" id="unidades">
-                        <option value="1">4 unidades = $1.500</option>
-                        <option value="2">8 unidades = $2.800</option>
-                        <option value="3">10 unidades = $4.000</option>          
-                    </select>
-            </article>
-            <article class="artcontainer">
-                <img class="producto" src="../imagenes/cerveza6-removebg-preview.png" alt="andes-roja">
-                    <p>Andes Roja</p>
-                    <p>cantidades Permitidas</p>
-                        <select name="unidades" id="unidades">
-                            <option value="1">4 unidades = $1.500</option>
-                            <option value="2">8 unidades = $2.800</option>
-                            <option value="3">10 unidades = $4.000</option>          
-                    </select>
-            </article>
-        </section>
-</main>  
-<br>
-<br>
-<br>
+            <select name="unidades" id="unidades">
+                <option value="1">4 unidades = $1.500</option>
+                <option value="2">8 unidades = $2.800</option>
+                <option value="3">10 unidades = $4.000</option>          
+            </select>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4" id="artcontainer">
+            <img class="producto" src="../imagenes/cerveza6-removebg-preview.png" alt="aperol" data-aos="flip-left">
+                <p>Andes Roja</p>
+                <p>cantidades Permitidas</p>
+            <select name="unidades" id="unidades">
+                <option value="1">4 unidades = $1.500</option>
+                <option value="2">8 unidades = $2.800</option>
+                <option value="3">10 unidades = $4.000</option>          
+            </select>
+          </div>
+        </div>
+      </div>
+    </main>  
 <footer class="final">
     <ul>
-        <li><a href="./FinalDePagina/Preguntas.html">Preguntas Frecuentes</a></li>
-        <li><a href="./FinalDePagina/Contacto-formulario.html">Contacto</a></li>
-        <li><a href="./FinalDePagina/terminos-condiciones.html">Terminos y Condiciones</a></li>
+        <li><a href="../FinalDePagina/Preguntas.html">Preguntas Frecuentes</a></li>
+        <li><a href="../FinalDePagina/Contacto-formulario.html">Contacto</a></li>
+        <li><a href="../FinalDePagina/terminos-condiciones.html">Terminos y Condiciones</a></li>
     </ul>
     <ul>
-    <span>Descarga nuestra app</span>
-        <li>
-            <a href="https://apps.apple.com/">
-                <img class="imgFinal"src="../imagenes/appstore.png" alt="app-store">
-            </a>
-        </li>
-        <li>
-            <a href="https://play.google.com/">
-                <img class="imgFinal"src="../imagenes/googleplay.png" alt="google-play">
-            </a>
-        </li>
-    </ul>
+    <span>LUNIN</span>
 </footer> 
 </body>
 </html>
